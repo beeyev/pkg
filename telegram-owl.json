@@ -6,21 +6,21 @@
             "bin": [
                 "telegram-owl.exe"
             ],
-            "hash": "fd2774d196522887108e80fde95ff87bf40b1050d6065607edee89fa5a727769"
+            "hash": "9493e81e71e6ba027d92ca29ef4c3f14c0bc5ebc3c008d788da40dd9d87800a7"
         },
         "64bit": {
             "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_Windows_64bit.zip",
             "bin": [
                 "telegram-owl.exe"
             ],
-            "hash": "cdea0536de805861f624eb561bea69ea5fe6e936c0c9725e964a281b61a9a544"
+            "hash": "b12a945ab419adce51c79419c9c23ca209eab71d3223ab7a7f6f54811857f4b3"
         },
         "arm64": {
             "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_Windows_ARM64.zip",
             "bin": [
                 "telegram-owl.exe"
             ],
-            "hash": "1b1b7489a8341c5a7d5c1baa89d6c8c3e69d556ea93fa88c01356d9d602eda28"
+            "hash": "dca7b8dd5193ac476f26710c02a5ee78090bf9a7d422b4c02251301d891d1bb1"
         }
     },
     "homepage": "https://github.com/beeyev/telegram-owl",
