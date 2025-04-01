@@ -11,7 +11,7 @@ class TelegramOwl < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_macOS_64bit.tar.gz"
-      sha256 "e83fac6094d7f4ee4f51e7fde942602723e0c25c1d75e69f205622be80a8e0b0"
+      sha256 "004049518e8f5f26776316afb54517d777866172b64446da897f60f07b5f8dd9"
 
       def install
         bin.install "telegram-owl"
@@ -19,7 +19,7 @@ class TelegramOwl < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_macOS_ARM64.tar.gz"
-      sha256 "67457c7ad03d977b66d8f09d433d8ce67ba1d75894c1aba3941953d96a1fd9e7"
+      sha256 "901074b67e61b02c50b53591f0f37bc8f0be9acef4cc65392b67873e71329217"
 
       def install
         bin.install "telegram-owl"
@@ -31,7 +31,7 @@ class TelegramOwl < Formula
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
         url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_Linux_64bit.tar.gz"
-        sha256 "84c936e08b2e8207511349da46bc9403085a70db317f46d6476e01da54ff7739"
+        sha256 "1a5382e23676ec4495755e5e650b2d37dc705cfe1194fcc7dc29b6fb43d1ba8d"
 
         def install
           bin.install "telegram-owl"
@@ -41,7 +41,7 @@ class TelegramOwl < Formula
     if Hardware::CPU.arm?
       if !Hardware::CPU.is_64_bit?
         url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_Linux_ARM.tar.gz"
-        sha256 "beba8c15eb2bec9ef9114cc96f6e11ec3d8afa135a04aef78dc3c273bc03f945"
+        sha256 "fdd7cea62d195b7be297c7807127e2111bbc39edacfc78b298c568ee1b2493d0"
 
         def install
           bin.install "telegram-owl"
@@ -51,7 +51,7 @@ class TelegramOwl < Formula
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
         url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_Linux_ARM64.tar.gz"
-        sha256 "700b601b7d7bc19afe2b9bb218ad116503851bfee7f02147cf2c2f8fa552e137"
+        sha256 "35a31b9ffcfe69d3c0812924b8b31e20d1e81ef43f10f3f1eb9051d8fb6b236c"
 
         def install
           bin.install "telegram-owl"
