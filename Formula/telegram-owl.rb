@@ -5,21 +5,21 @@
 class TelegramOwl < Formula
   desc "CLI utility to send messages and files to Telegram chats and channels"
   homepage "https://github.com/beeyev/telegram-owl"
-  version "1.3.3"
+  version "1.3.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_macOS_64bit.tar.gz"
-      sha256 "004049518e8f5f26776316afb54517d777866172b64446da897f60f07b5f8dd9"
+      url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.4/telegram-owl_v1.3.4_macOS_64bit.tar.gz"
+      sha256 "2cb13916a0a797047be3aa60868a4daececf37b3343541d7f00b921f0ace5bb8"
 
       def install
         bin.install "telegram-owl"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_macOS_ARM64.tar.gz"
-      sha256 "901074b67e61b02c50b53591f0f37bc8f0be9acef4cc65392b67873e71329217"
+      url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.4/telegram-owl_v1.3.4_macOS_ARM64.tar.gz"
+      sha256 "65894fc94fa6b8fd0f3619f0a595c3bf0002a02b54c4372ddcd0c6a5d178e56d"
 
       def install
         bin.install "telegram-owl"
@@ -28,34 +28,25 @@ class TelegramOwl < Formula
   end
 
   on_linux do
-    if Hardware::CPU.intel?
-      if Hardware::CPU.is_64_bit?
-        url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_Linux_64bit.tar.gz"
-        sha256 "1a5382e23676ec4495755e5e650b2d37dc705cfe1194fcc7dc29b6fb43d1ba8d"
-
-        def install
-          bin.install "telegram-owl"
-        end
+    if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
+      url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.4/telegram-owl_v1.3.4_Linux_64bit.tar.gz"
+      sha256 "3ecee5260bae7ee8846e94b3528797b514830cd61e5ee1c8f4917571368d8a95"
+      def install
+        bin.install "telegram-owl"
       end
     end
-    if Hardware::CPU.arm?
-      if !Hardware::CPU.is_64_bit?
-        url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_Linux_ARM.tar.gz"
-        sha256 "fdd7cea62d195b7be297c7807127e2111bbc39edacfc78b298c568ee1b2493d0"
-
-        def install
-          bin.install "telegram-owl"
-        end
+    if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
+      url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.4/telegram-owl_v1.3.4_Linux_ARM.tar.gz"
+      sha256 "0e70fbf5b9b286c4c91f1ee0e683d3c09d0daa318e7d89ba3275a6dac1ffdb9f"
+      def install
+        bin.install "telegram-owl"
       end
     end
-    if Hardware::CPU.arm?
-      if Hardware::CPU.is_64_bit?
-        url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.3/telegram-owl_v1.3.3_Linux_ARM64.tar.gz"
-        sha256 "35a31b9ffcfe69d3c0812924b8b31e20d1e81ef43f10f3f1eb9051d8fb6b236c"
-
-        def install
-          bin.install "telegram-owl"
-        end
+    if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
+      url "https://github.com/beeyev/telegram-owl/releases/download/v1.3.4/telegram-owl_v1.3.4_Linux_ARM64.tar.gz"
+      sha256 "692c6a4c9166aea237699cf8c9dfd88e5c9f7dbdea7a26fad7e2d7c5a76c1e59"
+      def install
+        bin.install "telegram-owl"
       end
     end
   end
