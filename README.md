@@ -13,7 +13,4 @@ Scoop
 ```bash
 # Add source
 scoop bucket add beeyev https://github.com/beeyev/pkg
-
-# List available packages:
-scoop search --bucket beeyev
 ```
