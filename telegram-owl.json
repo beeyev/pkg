@@ -1,0 +1,35 @@
+{
+    "version": "1.3.5",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.3.5/telegram-owl_v1.3.5_Windows_32bit.zip",
+            "bin": [
+                "telegram-owl.exe"
+            ],
+            "hash": "0513f359b4b66c2798baeddf110c1231d50bc7809409ca7b86086a1c7e3b0d10"
+        },
+        "64bit": {
+            "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.3.5/telegram-owl_v1.3.5_Windows_64bit.zip",
+            "bin": [
+                "telegram-owl.exe"
+            ],
+            "hash": "be467e52121441d0839d15512cbeaa8d79b01d35ba52808bf46dcd2fcb5471f6"
+        },
+        "arm64": {
+            "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.3.5/telegram-owl_v1.3.5_Windows_ARM64.zip",
+            "bin": [
+                "telegram-owl.exe"
+            ],
+            "hash": "10363adaf19a8f6d735ef12e4ac281736e46852a104dbc173d796b3289182fd0"
+        }
+    },
+    "homepage": "https://github.com/beeyev/telegram-owl",
+    "license": "MIT",
+    "description": "CLI utility to send messages and files to Telegram chats and channels",
+    "shortcuts": [
+        [
+            "telegram-owl.exe",
+            "telegram-owl"
+        ]
+    ]
+}
