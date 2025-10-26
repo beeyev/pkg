@@ -3,7 +3,7 @@ cask "telegram-owl" do
   name "telegram-owl"
   desc "CLI utility to send messages and files to Telegram chats and channels"
   homepage "https://github.com/beeyev/telegram-owl"
-  version "1.3.5"
+  version "1.3.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "telegram-owl" do
   on_macos do
     on_intel do
       url "https://github.com/beeyev/telegram-owl/releases/download/v#{version}/telegram-owl_v#{version}_macOS_64bit.tar.gz"
-      sha256 "a430f4bb49a4cd9ad4bd99d913d2b9b3ec6f94361bbfede54029538ad99a3f3a"
+      sha256 "0d6d231264ffa4fca464fe5c0dc501a7447f1e33c09b1923fb4d889b2f125b72"
     end
     on_arm do
       url "https://github.com/beeyev/telegram-owl/releases/download/v#{version}/telegram-owl_v#{version}_macOS_ARM64.tar.gz"
-      sha256 "e5cd22408ffa0dc156f51c32b6e3c3e3d00244f4fb693d06c6666a9ab2a0bd73"
+      sha256 "648d743e7bb9751167e4c2f07885c6dedf2745bf5bd5f2696ddb7ff15957b279"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/beeyev/telegram-owl/releases/download/v#{version}/telegram-owl_v#{version}_Linux_64bit.tar.gz"
-      sha256 "b65a94c9d15f2f1df82934016cdc7b59cd9edceab29635c8938b8146368a05cb"
+      sha256 "4a4db65dd812056bc3dfbde803f3caa23ed526c67df0cb1756d1f84165a7d0d1"
     end
     on_arm do
       url "https://github.com/beeyev/telegram-owl/releases/download/v#{version}/telegram-owl_v#{version}_Linux_ARM64.tar.gz"
-      sha256 "751a1c534f6b56f0dd63c66615b844a830c06144c2d393df91c5922bd13e96e2"
+      sha256 "82fb4e3f8ec170174c36e72d9c8f363eb3802cfe64546901d7d1cbccffb0ddc5"
     end
   end
 
