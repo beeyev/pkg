@@ -1,26 +1,26 @@
 {
-    "version": "1.3.6",
+    "version": "1.4.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.3.6/telegram-owl_v1.3.6_Windows_32bit.zip",
+            "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.4.0/telegram-owl_v1.4.0_Windows_32bit.zip",
             "bin": [
                 "telegram-owl.exe"
             ],
-            "hash": "a2a3ab004b813ac414979da67018e906845e0b2c90519088e9fd898c0197dd7d"
+            "hash": "28ac96a27bc77d31e40898917eb35bd92d6b2bc4c89bf6acd9de0a185d331ebc"
         },
         "64bit": {
-            "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.3.6/telegram-owl_v1.3.6_Windows_64bit.zip",
+            "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.4.0/telegram-owl_v1.4.0_Windows_64bit.zip",
             "bin": [
                 "telegram-owl.exe"
             ],
-            "hash": "74da5c4a7f06837f59a0080b4e04a88d227c339256ffe012c3f00dfad4cd46db"
+            "hash": "c65d959f1136c1d1c50ba12b1b0a198650b67281e0a7c52994fe3d88cc786093"
         },
         "arm64": {
-            "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.3.6/telegram-owl_v1.3.6_Windows_ARM64.zip",
+            "url": "https://github.com/beeyev/telegram-owl/releases/download/v1.4.0/telegram-owl_v1.4.0_Windows_ARM64.zip",
             "bin": [
                 "telegram-owl.exe"
             ],
-            "hash": "37e2302ec0e4d73a13dca3e311a19acc823ae8b64e4a59c231b8dbe8bfb43521"
+            "hash": "823b5ca300f23ec0c3fce31b9d7d91257871a17fef224591c08a0df43cf76abb"
         }
     },
     "homepage": "https://github.com/beeyev/telegram-owl",
